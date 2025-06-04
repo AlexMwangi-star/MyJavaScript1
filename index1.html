@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Scope Error Exercise</title>
+    </head>
+    <body>
+        
+    <script>
+        function showScope() {
+let name="Alice"
+cont age=25;
+
+console.log("Outside block;"):
+console.log("Name:",name);
+console.log("Age:",age);
+
+if(true){
+    let name="Bob";
+
+    const AGE=30;
+
+    Var city="Nairobi";
+
+    console.log("Inside block:");
+    console.log("Name:",name);
+    console.log("Age:",age);
+    console.log("City:",city);
+}
+consolelog("After block:");
+console.log("Name:",name);
+console.log("Age:,age");
+console.log("City:",city);
+        }
+        showScope();
+
+        console.log(Outside function:);
+        console.log("Name:",name);
+        console.log("City:",city);
+    </script>
+    
+</head>
+<body>
+    
+</body>
+</html>
